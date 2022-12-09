@@ -56,7 +56,7 @@ Log.d("Count", String.valueOf(count));
         }
         if(count==4){
             getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.containers,new HistoryFragment()).commit();
-            count=0;
+            count=3;
             Log.d("Point",String.valueOf(point));
             point=0;
         }
